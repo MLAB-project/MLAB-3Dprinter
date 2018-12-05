@@ -265,7 +265,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define ENDSTOP_X_BACK_ON_HOME 1
 #define ENDSTOP_Y_BACK_ON_HOME 1
 #define ENDSTOP_Z_BACK_ON_HOME 0
-#define ALWAYS_CHECK_ENDSTOPS 1
+#define ALWAYS_CHECK_ENDSTOPS 0
 
 // ################# XYZ movements ###################
 
@@ -656,7 +656,7 @@ Values must be in range 1..255
     "xLength": 185,
     "yLength": 180,
     "zLength": 185,
-    "alwaysCheckEndstops": "1",
+    "alwaysCheckEndstops": "0",
     "disableX": "0",
     "disableY": "0",
     "disableZ": "1",

@@ -64,7 +64,7 @@ belt_thickness = 2.3;
 
 // T2.5
 belt_tooth_distance = 2.5;
-belt_tooth_ratio = 0.5;
+belt_tooth_ratio = 0.45;
 
 
 // Tloustka rohovych spojek

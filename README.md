@@ -2,6 +2,14 @@ RebeliX
 =======
 RebeliX – a 3D printer inspired by constructions of Rebel II a Prusa i3. Licensed as GPLv3. Howto and list of materials is available on www.RebeliX.cz (currently only in Czech, we are working on it, help is appreciated).
 
+Features
+=====
+
+* Piezoelectric based precise Z-calibration
+* Symmetric motor configuration push-pull to minimize belt stretching in printing of corners
+
+
+
 ![RebeliX](Rebelix_render.png "Preview of assembled printer" )
 
 

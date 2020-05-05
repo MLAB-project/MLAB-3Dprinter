@@ -136,7 +136,7 @@ module case_front()
 
 		// Text
 		   // Text MLAB
-		translate([54,88,1]) rotate([0,180,0]) scale([0.54,0.54,1]) scale(v = [0.2, 0.2, 0.3])
+		translate([54,88,0]) rotate([0,180,0]) scale([0.54,0.54,1]) scale(v = [0.2, 0.2, 0.3])
     MLAB_logo_short();
 	}
 	// Sloupky v rozich

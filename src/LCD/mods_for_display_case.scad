@@ -1,7 +1,7 @@
 // CC BY-NC-SA
 // (C) Ricky White Jan 2015.
 //
-// This file requires the files of the origional project to be unzipped into the same directory as this file.
+// This file requires the files of the origional project https://www.thingiverse.com/thing:87250/files to be unzipped into the same directory as this file.
 //	Case_for_the_Full_Graphic_Smart_LCD_Controller.zip
 // This is so the origional STL files can be used and modified by mods_for_display_case.scad
 //
@@ -133,7 +133,7 @@ module case_front()
 
 		// shorteN switch post for taller switches
 		mask_button_guide();
-		
+
 		// Text
 		   // Text MLAB
 		translate([54,88,1]) rotate([0,180,0]) scale([0.54,0.54,1]) scale(v = [0.2, 0.2, 0.3])
@@ -144,7 +144,7 @@ module case_front()
 	translate([4.1,4.1+86.5,2+7.6/2]) sloupek(7.6);
 	translate([4.1+99.5,4.1+86.5,2+7.6/2]) sloupek(7.6);
 	translate([4.1+99.5,4.1,2+7.6/2]) sloupek(7.6);
-	
+
 
 }
 
@@ -182,8 +182,6 @@ module case_rear()
 	}
 }
 
-
-
 // Imports the origional button and scales it
 // I print tyhe button narrow end down so it gets a nice finish from the glass bed of my printer.
 // My prusa i3 deravitive printer is fine with the overhang required to do this.  yours may differ.
@@ -194,13 +192,13 @@ module button()
 	new_height = orig_height-delta;	// new switch types will always be fatter than the origional (assumption)
 
 	z_scale = new_height / orig_height;
-	scale([1,1,z_scale])	rotate([-90,0,0]) 
+	scale([1,1,z_scale])	rotate([-90,0,0])
 	{
 		import("Case_for_the_Full_Graphic_Smart_LCD_Controllerf-Kill_Button_FGD.stl", convexity=10);
 	}
 }
 
-// Pridelani do profilu 
+// Pridelani do profilu
 module base(){
 	translate([0,0,0]) cube([7.2+1.8+3,delka_zobacku,10]);
 
@@ -217,16 +215,12 @@ module drazka(){
 difference(){
 	base();
 	cuts();
-}	
 }
-
-
-
-
+}
 
 // Render
 //----------------------------------------------------------------------------/
 case_front();
 //translate([108.6/2 - delka_zobacku/2,7.4+1.8+3,0.14]) rotate([0,0,-90]) drazka();
 //rotate([180,0,0]) translate([0,0,-11]) case_rear();
-//translate([100,0,10]) button();
+//translate([100,0,10]) rotate([180,0,0]) button();

@@ -7,7 +7,7 @@
 // http://www.reprap.org/wiki/Prusa_Mendel
 // http://github.com/prusajr/PrusaMendel
 
-include <../configuration.scad>
+include <../include/configuration.scad>
 
 /**
  * @id bushing

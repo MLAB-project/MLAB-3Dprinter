@@ -5,7 +5,7 @@
 // Martin Neruda <neruda@reprap4u.cz>
 // http://www.reprap4u.cz
 
-include <../configuration.scad>
+include <../include/configuration.scad>
 
 width = 13;
 height = 7;

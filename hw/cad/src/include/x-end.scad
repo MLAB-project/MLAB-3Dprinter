@@ -5,8 +5,8 @@
 // http://www.reprap.org/wiki/Prusa_Mendel
 // http://prusamendel.org
 
-use <bearing.scad>
-use <polyholes.scad>
+use <../include/bearing.scad>
+use <../include/polyholes.scad>
 rod_distance = 45;
 
 module x_end_base(){

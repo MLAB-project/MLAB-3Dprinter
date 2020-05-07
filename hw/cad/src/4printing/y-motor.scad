@@ -6,7 +6,7 @@
 // http://www.reprap4u.cz
 // Inspired by Rebel II
 
-include <../configuration.scad>
+include <../include/configuration.scad>
 
 base_thickness = 8;
 motor_base_thickness = 5;

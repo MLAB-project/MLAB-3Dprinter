@@ -7,7 +7,7 @@
 // Inspired by Rebel II and Prusa i3
 
 
-include <../configuration.scad>
+include <../include/configuration.scad>
 
 // Space between stepper and the part (less vibrations)
 space = 0.6;

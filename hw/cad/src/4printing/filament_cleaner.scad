@@ -6,7 +6,7 @@
 // http://www.mlab.cz
 
 $fn=100; // model faces resolution.
-include <inc/polyScrewThread_r1.scad>
+include <../include/polyScrewThread_r1.scad>
 
 vnitrni_prumer=15;
 vnitrni_vyska=15;

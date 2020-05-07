@@ -7,7 +7,7 @@
 //
 ///////////////////////////////////////////////////////////////////////
 
-use <../inc/MLAB_logo.scad>
+use <../include/MLAB_logo.scad>
 
 // parameters
 //---------------------------------------------------------------------
@@ -121,7 +121,7 @@ module case_front()
 		{
 			difference()
 			{
-				translate([-142,-55,-11])	import("Case_for_the_Full_Graphic_Smart_LCD-Top_Case_FGD.stl", convexity=10);
+				translate([-142,-55,-11])	import("../include/Case_for_the_Full_Graphic_Smart_LCD-Top_Case_FGD.stl", convexity=10);
 				card_access_cutout_front();
 			}
 			translate([0,0,-0.4]) card_access_wall(16);
@@ -159,7 +159,7 @@ module case_rear()
 			{
 				rotate([0,180,0]) translate([-276,-55,-24])
 				{
-				import("Case_for_the_Full_Graphic_Smart_LCD_Controller-Bottom_Case_FGD.stl", convexity=10);
+				import("../include/Case_for_the_Full_Graphic_Smart_LCD_Controller-Bottom_Case_FGD.stl", convexity=10);
 				}
 				card_access_cutout();
 
@@ -194,7 +194,7 @@ module button()
 	z_scale = new_height / orig_height;
 	scale([1,1,z_scale])	rotate([-90,0,0])
 	{
-		import("Case_for_the_Full_Graphic_Smart_LCD_Controllerf-Kill_Button_FGD.stl", convexity=10);
+		import("../include/Case_for_the_Full_Graphic_Smart_LCD_Controllerf-Kill_Button_FGD.stl", convexity=10);
 	}
 }
 
@@ -220,7 +220,7 @@ difference(){
 
 // Render
 //----------------------------------------------------------------------------/
-case_front();
+//case_front();
 //translate([108.6/2 - delka_zobacku/2,7.4+1.8+3,0.14]) rotate([0,0,-90]) drazka();
 //rotate([180,0,0]) translate([0,0,-11]) case_rear();
 //translate([100,0,10]) rotate([180,0,0]) button();

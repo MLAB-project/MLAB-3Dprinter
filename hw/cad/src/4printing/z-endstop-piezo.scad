@@ -5,7 +5,7 @@
 // Jan Chroust <jacho@mlab.cz>
 // http://www.mlab.cz
 $fn=100; // model faces resolution.
-include <inc/polyScrewThread_r1.scad>
+include <../include/polyScrewThread_r1.scad>
 
 roztec_der=41;
 vyska_gumove_nozicky=5;

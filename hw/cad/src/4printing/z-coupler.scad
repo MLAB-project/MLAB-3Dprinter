@@ -5,8 +5,8 @@
 // Jan Chroust <jacho@mlab.cz>
 // http://www.mlab.cz
 
-use <inc/MLAB_logo.scad>
-include <../configuration.scad>
+use <../include/MLAB_logo.scad>
+include <../include/configuration.scad>
 
 sirka_profilu=30;
 vyska_rantlu=1.5;

@@ -5,8 +5,8 @@
 // http://www.reprap.org/wiki/Prusa_Mendel
 // http://prusamendel.org
 
-include <../configuration.scad>
-use <inc/bearing.scad>
+include <../include/configuration.scad>
+use <../include/bearing.scad>
 x_rod_distance = 45;
 fix_teeth_count = 7;
 

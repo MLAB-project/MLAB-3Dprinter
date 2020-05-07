@@ -5,8 +5,8 @@
 // http://www.reprap.org/wiki/Prusa_Mendel
 // http://prusamendel.org
 
-use <inc/x-end.scad>
-include <../configuration.scad>
+use <../include/x-end.scad>
+include <../include/configuration.scad>
 
 module x_end_motor_base(){
  x_end_base();

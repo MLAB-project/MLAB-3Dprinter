@@ -6,7 +6,7 @@
 // http://www.reprap4u.cz
 // Inspired by Rebel II
 
-include <../configuration.scad>
+include <../include/configuration.scad>
 
 height = 105;
 thickness = 25;

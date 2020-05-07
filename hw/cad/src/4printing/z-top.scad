@@ -6,7 +6,7 @@
 // http://www.reprap4u.cz
 // Inspired by Rebel II and Prusa i3
 
-include <../configuration.scad>
+include <../include/configuration.scad>
 
 height = 50;
 

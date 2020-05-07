@@ -1,4 +1,4 @@
-include <../configuration.scad>
+include <../include/configuration.scad>
 
 module bottom_holder_base(height,width,length){
 	// Arduino holder

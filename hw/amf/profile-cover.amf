@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <amf unit="millimeter">
- <metadata type="producer">OpenSCAD 2015.05.26</metadata>
+ <metadata type="producer">OpenSCAD 2020.05.03 (git 648206e2)</metadata>
  <object id="0">
   <mesh>
    <vertices>
     <vertex><coordinates>
      <x>0</x>
      <y>0</y>
-     <z>1</z>
+     <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>0</x>
@@ -22,7 +22,7 @@
     <vertex><coordinates>
      <x>30</x>
      <y>0</y>
-     <z>1</z>
+     <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>0</x>
@@ -37,32 +37,32 @@
     <vertex><coordinates>
      <x>0</x>
      <y>30</y>
-     <z>1</z>
+     <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>10.25</x>
      <y>10.25</y>
-     <z>1</z>
+     <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>10.25</x>
      <y>19.75</y>
-     <z>1</z>
+     <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>19.75</x>
      <y>10.25</y>
-     <z>1</z>
+     <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>30</x>
      <y>30</y>
-     <z>1</z>
+     <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>19.75</x>
      <y>19.75</y>
-     <z>1</z>
+     <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>10.25</x>

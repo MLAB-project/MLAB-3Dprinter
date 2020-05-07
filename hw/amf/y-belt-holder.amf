@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <amf unit="millimeter">
- <metadata type="producer">OpenSCAD 2015.07.16</metadata>
+ <metadata type="producer">OpenSCAD 2020.05.03 (git 648206e2)</metadata>
  <object id="0">
   <mesh>
    <vertices>
@@ -210,6 +210,11 @@
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
+     <x>-46.0253</x>
+     <y>36</y>
+     <z>5.8832</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
      <x>-46.8753</x>
      <y>36</y>
      <z>6.50076</z>
@@ -218,11 +223,6 @@
      <x>-47.2</x>
      <y>36</y>
      <z>7.5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-46.0253</x>
-     <y>36</y>
-     <z>5.8832</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>-44.9747</x>
@@ -260,17 +260,17 @@
      <z>8.49923</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-20.5</x>
+     <x>-23.5</x>
      <y>0</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-29.5</x>
+     <x>-26.5</x>
      <y>0</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-29.5</x>
+     <x>-26.5</x>
      <y>0</y>
      <z>15</z>
     </coordinates></vertex>
@@ -280,7 +280,7 @@
      <z>15</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-20.5</x>
+     <x>-23.5</x>
      <y>0</y>
      <z>15</z>
     </coordinates></vertex>
@@ -415,43 +415,38 @@
      <z>8.49923</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-40.5</x>
+     <x>-40.125</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-40.5</x>
+     <x>-40.125</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-39.5</x>
+     <x>-39</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-39.5</x>
+     <x>-39</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-38.5</x>
+     <x>-37.625</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-37.5</x>
+     <x>-36.5</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-38.5</x>
+     <x>-37.625</x>
      <y>8</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-37.5</x>
-     <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -460,42 +455,27 @@
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-35.5</x>
-     <y>8</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-36.5</x>
-     <y>8</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-35.5</x>
+     <x>-35.125</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-34.5</x>
-     <y>9.5</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-33.5</x>
+     <x>-34</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-34.5</x>
+     <x>-35.125</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-33.5</x>
+     <x>-34</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-32.5</x>
+     <x>-32.625</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
@@ -505,7 +485,7 @@
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-32.5</x>
+     <x>-32.625</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
@@ -515,32 +495,72 @@
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-30.5</x>
+     <x>-30.125</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-29.5</x>
+     <x>-29</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-30.5</x>
+     <x>-30.125</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-20.5</x>
+     <x>-29</x>
+     <y>9.5</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-27.625</x>
+     <y>9.5</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-26.5</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-19.5</x>
+     <x>-27.625</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-19.5</x>
+     <x>-23.5</x>
+     <y>8</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-22.375</x>
+     <y>8</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-22.375</x>
+     <y>9.5</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-21</x>
+     <y>9.5</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-19.875</x>
+     <y>8</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-21</x>
+     <y>8</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-19.875</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
@@ -550,7 +570,7 @@
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-17.5</x>
+     <x>-17.375</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
@@ -560,33 +580,38 @@
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-17.5</x>
+     <x>-17.375</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-16.5</x>
+     <x>-16</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-15.5</x>
+     <x>-14.875</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-16.5</x>
+     <x>-16</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-15.5</x>
+     <x>-14.875</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-14.5</x>
+     <x>-13.5</x>
      <y>9.5</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-12.375</x>
+     <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -595,52 +620,27 @@
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-14.5</x>
-     <y>8</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-13.5</x>
+     <x>-12.375</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-12.5</x>
+     <x>-11</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-11.5</x>
+     <x>-9.875</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-12.5</x>
+     <x>-11</x>
      <y>8</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-11.5</x>
-     <y>9.5</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-10.5</x>
-     <y>9.5</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-9.5</x>
-     <y>8</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-10.5</x>
-     <y>8</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-9.5</x>
+     <x>-9.875</x>
      <y>9.5</y>
      <z>3</z>
     </coordinates></vertex>
@@ -650,24 +650,49 @@
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-40.5</x>
+     <x>-40.125</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-29.5</x>
+     <x>-26.5</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-30.5</x>
+     <x>-27.625</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-29.5</x>
+     <x>-26.5</x>
      <y>6.5</y>
      <z>15</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-29</x>
+     <y>9.5</y>
+     <z>12</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-27.625</x>
+     <y>9.5</y>
+     <z>12</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-29</x>
+     <y>8</y>
+     <z>13.5</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-30.125</x>
+     <y>8</y>
+     <z>13.5</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-30.125</x>
+     <y>9.5</y>
+     <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>-31.5</x>
@@ -675,59 +700,39 @@
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-30.5</x>
-     <y>9.5</y>
-     <z>12</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
      <x>-31.5</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-32.5</x>
+     <x>-32.625</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-32.5</x>
+     <x>-32.625</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-33.5</x>
+     <x>-34</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-33.5</x>
+     <x>-34</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-34.5</x>
+     <x>-35.125</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-34.5</x>
+     <x>-35.125</x>
      <y>9.5</y>
      <z>12</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-35.5</x>
-     <y>9.5</y>
-     <z>12</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-35.5</x>
-     <y>8</y>
-     <z>13.5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-36.5</x>
-     <y>8</y>
-     <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>-36.5</x>
@@ -735,47 +740,42 @@
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-37.5</x>
+     <x>-36.5</x>
+     <y>8</y>
+     <z>13.5</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-37.625</x>
+     <y>8</y>
+     <z>13.5</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-37.625</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-37.5</x>
-     <y>8</y>
-     <z>13.5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-38.5</x>
-     <y>8</y>
-     <z>13.5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-38.5</x>
+     <x>-39</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-39.5</x>
-     <y>9.5</y>
-     <z>12</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-39.5</x>
+     <x>-39</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-40.5</x>
+     <x>-40.125</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-20.5</x>
+     <x>-23.5</x>
      <y>6.5</y>
      <z>15</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-20.5</x>
+     <x>-23.5</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
@@ -785,49 +785,34 @@
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-9.5</x>
+     <x>-9.875</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-9.5</x>
+     <x>-9.875</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-10.5</x>
+     <x>-11</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-10.5</x>
+     <x>-11</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-11.5</x>
+     <x>-12.375</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-11.5</x>
+     <x>-12.375</x>
      <y>8</y>
      <z>13.5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-12.5</x>
-     <y>8</y>
-     <z>13.5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-12.5</x>
-     <y>9.5</y>
-     <z>12</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-13.5</x>
-     <y>9.5</y>
-     <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
      <x>-13.5</x>
@@ -835,42 +820,37 @@
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-14.5</x>
+     <x>-13.5</x>
+     <y>9.5</y>
+     <z>12</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-14.875</x>
+     <y>9.5</y>
+     <z>12</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-14.875</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-14.5</x>
-     <y>9.5</y>
-     <z>12</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-15.5</x>
-     <y>9.5</y>
-     <z>12</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-15.5</x>
+     <x>-16</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-16.5</x>
-     <y>8</y>
-     <z>13.5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-16.5</x>
+     <x>-16</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-17.5</x>
+     <x>-17.375</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-17.5</x>
+     <x>-17.375</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
@@ -885,12 +865,32 @@
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-19.5</x>
+     <x>-19.875</x>
      <y>9.5</y>
      <z>12</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-19.5</x>
+     <x>-19.875</x>
+     <y>8</y>
+     <z>13.5</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-21</x>
+     <y>8</y>
+     <z>13.5</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-21</x>
+     <y>9.5</y>
+     <z>12</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-22.375</x>
+     <y>9.5</y>
+     <z>12</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-22.375</x>
      <y>8</y>
      <z>13.5</z>
     </coordinates></vertex>
@@ -1142,34 +1142,34 @@
      <v3>34</v3>
     </triangle>
     <triangle>
-     <v1>0</v1>
+     <v1>9</v1>
      <v2>41</v2>
      <v3>42</v3>
     </triangle>
     <triangle>
-     <v1>4</v1>
-     <v2>0</v2>
+     <v1>0</v1>
+     <v2>9</v2>
      <v3>42</v3>
     </triangle>
     <triangle>
-     <v1>9</v1>
-     <v2>43</v2>
-     <v3>41</v3>
+     <v1>0</v1>
+     <v2>42</v2>
+     <v3>43</v3>
     </triangle>
     <triangle>
-     <v1>0</v1>
-     <v2>9</v2>
-     <v3>41</v3>
+     <v1>4</v1>
+     <v2>0</v2>
+     <v3>43</v3>
     </triangle>
     <triangle>
      <v1>8</v1>
      <v2>44</v2>
-     <v3>43</v3>
+     <v3>41</v3>
     </triangle>
     <triangle>
      <v1>9</v1>
      <v2>8</v2>
-     <v3>43</v3>
+     <v3>41</v3>
     </triangle>
     <triangle>
      <v1>6</v1>
@@ -1232,13 +1232,13 @@
      <v3>7</v3>
     </triangle>
     <triangle>
-     <v1>42</v1>
+     <v1>43</v1>
      <v2>50</v2>
      <v3>7</v3>
     </triangle>
     <triangle>
      <v1>4</v1>
-     <v2>42</v2>
+     <v2>43</v2>
      <v3>7</v3>
     </triangle>
     <triangle>
@@ -1409,6 +1409,11 @@
     <triangle>
      <v1>14</v1>
      <v2>24</v2>
+     <v3>43</v3>
+    </triangle>
+    <triangle>
+     <v1>14</v1>
+     <v2>43</v2>
      <v3>42</v3>
     </triangle>
     <triangle>
@@ -1419,15 +1424,10 @@
     <triangle>
      <v1>14</v1>
      <v2>41</v2>
-     <v3>43</v3>
-    </triangle>
-    <triangle>
-     <v1>14</v1>
-     <v2>43</v2>
      <v3>15</v3>
     </triangle>
     <triangle>
-     <v1>43</v1>
+     <v1>41</v1>
      <v2>44</v2>
      <v3>15</v3>
     </triangle>
@@ -1462,7 +1462,7 @@
      <v3>49</v3>
     </triangle>
     <triangle>
-     <v1>42</v1>
+     <v1>43</v1>
      <v2>24</v2>
      <v3>50</v3>
     </triangle>
@@ -1692,7 +1692,7 @@
      <v3>104</v3>
     </triangle>
     <triangle>
-     <v1>51</v1>
+     <v1>105</v1>
      <v2>102</v2>
      <v3>103</v3>
     </triangle>
@@ -1703,7 +1703,7 @@
     </triangle>
     <triangle>
      <v1>105</v1>
-     <v2>102</v2>
+     <v2>103</v2>
      <v3>51</v3>
     </triangle>
     <triangle>
@@ -1867,13 +1867,13 @@
      <v3>134</v3>
     </triangle>
     <triangle>
-     <v1>135</v1>
+     <v1>132</v1>
      <v2>131</v2>
      <v3>133</v3>
     </triangle>
     <triangle>
      <v1>132</v1>
-     <v2>131</v2>
+     <v2>133</v2>
      <v3>135</v3>
     </triangle>
     <triangle>

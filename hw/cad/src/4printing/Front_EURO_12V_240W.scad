@@ -5,8 +5,8 @@
 // Martin Neruda <neruda@reprap4u.cz>
 // http://www.reprap4u.cz
 
-include <../../configuration.scad>
-use <../inc/MLAB_logo.scad>
+include <../include/configuration.scad>
+use <../include/MLAB_logo.scad>
 
 sirka = 99.4;
 vyska = 29;

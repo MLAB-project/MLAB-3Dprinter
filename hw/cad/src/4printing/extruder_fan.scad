@@ -6,7 +6,7 @@
 // http://www.mlab.cz
 
 
-use <../inc/MLAB_logo.scad>
+use <../include/MLAB_logo.scad>
 
   $fn=50;
 delka_uchytu=12;

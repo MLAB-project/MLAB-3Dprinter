@@ -1,4 +1,4 @@
-include <./configuration.scad>
+include <./src/include/configuration.scad>
 
 difference(){
 	union(){

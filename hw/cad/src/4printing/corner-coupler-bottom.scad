@@ -6,7 +6,7 @@
 // http://www.reprap4u.cz
 // Inspired by Rebel II
 
-include <../incude/configuration.scad>
+include <../include/configuration.scad>
 
 // Prumer pristrojove gumove nozicky
 rubber_feet_d = 20;

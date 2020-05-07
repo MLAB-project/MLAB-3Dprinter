@@ -5,8 +5,8 @@
 // http://www.thingiverse.com/thing:6713
 // modified for i3 by vlnofka <vlnofka@gmail.com>
 
-include<../../configuration.scad>
-include<../inc/functions.scad>
+include <../include/configuration.scad>
+include <../include/functions.scad>
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Define the hotend_mounting style you want by specifying hotend_mount=style1+style2 etc.
@@ -43,7 +43,7 @@ color("red")
 //x-carriage v2
 translate([24,-32.75,base_extra_depth+wade_block_depth])
   rotate([0,0,0])
-    import("../output/x-carriageV2.stl");
+    import("../include/x-carriage.stl");
 
 
 //%translate([45.0, 55.50, 1]) //[46.78,55, 1]

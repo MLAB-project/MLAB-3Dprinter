@@ -1,0 +1,3 @@
+../amf/RAMPS_mini.amf: \
+	src/include/configuration.scad \
+	src/4printing/RAMPS_mini.scad \

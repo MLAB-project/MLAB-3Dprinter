@@ -1,0 +1,3 @@
+../amf/y-motor.amf: \
+	src/include/configuration.scad \
+	src/4printing/y-motor.scad \

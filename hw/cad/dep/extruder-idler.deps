@@ -1,0 +1,2 @@
+../amf/extruder-idler.amf: \
+	src/4printing/extruder-idler.scad \

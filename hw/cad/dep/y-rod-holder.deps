@@ -1,0 +1,3 @@
+../amf/y-rod-holder.amf: \
+	src/include/configuration.scad \
+	src/4printing/y-rod-holder.scad \

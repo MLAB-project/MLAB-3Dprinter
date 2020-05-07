@@ -1,0 +1,2 @@
+../amf/j-head-mount.amf: \
+	src/4printing/j-head-mount.scad \

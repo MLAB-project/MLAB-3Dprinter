@@ -1,0 +1,3 @@
+../amf/y-LM8UU-holder.amf: \
+	src/include/configuration.scad \
+	src/4printing/y-LM8UU-holder.scad \

@@ -1,0 +1,3 @@
+../amf/z-top.amf: \
+	src/include/configuration.scad \
+	src/4printing/z-top.scad \

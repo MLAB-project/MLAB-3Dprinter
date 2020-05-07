@@ -1,0 +1,4 @@
+../amf/z-coupler.amf: \
+	src/include/MLAB_logo.scad \
+	src/include/configuration.scad \
+	src/4printing/z-coupler.scad \

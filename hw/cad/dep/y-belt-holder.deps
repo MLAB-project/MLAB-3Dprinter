@@ -1,0 +1,3 @@
+../amf/y-belt-holder.amf: \
+	src/include/configuration.scad \
+	src/4printing/y-belt-holder.scad \

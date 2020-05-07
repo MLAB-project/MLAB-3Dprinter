@@ -1,0 +1,6 @@
+../amf/x-end-motor.amf: \
+	src/include/x-end.scad \
+	src/include/polyholes.scad \
+	src/include/configuration.scad \
+	src/include/bearing.scad \
+	src/4printing/x-end-motor.scad \

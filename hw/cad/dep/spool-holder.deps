@@ -1,0 +1,3 @@
+../amf/spool-holder.amf: \
+	src/include/configuration.scad \
+	src/4printing/spool-holder.scad \

@@ -1,0 +1,3 @@
+../amf/profile-cover.amf: \
+	src/include/configuration.scad \
+	src/4printing/profile-cover.scad \

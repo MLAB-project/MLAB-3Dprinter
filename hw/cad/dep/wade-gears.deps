@@ -1,0 +1,6 @@
+../amf/wade-gears.amf: \
+	src/include/parametric_involute_gear_v5.0.scad \
+	src/include/metric.scad \
+	src/include/functions.scad \
+	src/include/configuration.scad \
+	src/4printing/wade-gears.scad \

@@ -1,0 +1,3 @@
+../amf/corner-coupler.amf: \
+	src/include/configuration.scad \
+	src/4printing/corner-coupler.scad \

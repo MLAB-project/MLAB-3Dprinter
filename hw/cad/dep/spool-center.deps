@@ -1,0 +1,2 @@
+../amf/spool-center.amf: \
+	src/4printing/spool-center.scad \

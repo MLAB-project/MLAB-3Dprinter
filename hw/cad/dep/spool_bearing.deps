@@ -1,0 +1,2 @@
+../amf/spool_bearing.amf: \
+	src/4printing/spool_bearing.scad \

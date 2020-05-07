@@ -1,0 +1,3 @@
+../amf/cable-holder-Nema17.amf: \
+	src/include/configuration.scad \
+	src/4printing/cable-holder-Nema17.scad \

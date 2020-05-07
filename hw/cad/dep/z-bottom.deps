@@ -1,0 +1,3 @@
+../amf/z-bottom.amf: \
+	src/include/configuration.scad \
+	src/4printing/z-bottom.scad \

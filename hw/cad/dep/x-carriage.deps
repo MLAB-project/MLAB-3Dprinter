@@ -1,0 +1,4 @@
+../amf/x-carriage.amf: \
+	src/include/configuration.scad \
+	src/include/bearing.scad \
+	src/4printing/x-carriage.scad \

@@ -1,0 +1,3 @@
+../amf/heatbed-nut.amf: \
+	src/include/configuration.scad \
+	src/4printing/heatbed-nut.scad \

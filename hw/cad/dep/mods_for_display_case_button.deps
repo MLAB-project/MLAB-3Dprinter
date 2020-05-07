@@ -1,0 +1,5 @@
+../amf/mods_for_display_case_button.amf: \
+	src/include/mods_for_display_case.scad \
+	src/include/MLAB_logo.scad \
+	src/4printing/mods_for_display_case_button.scad \
+	src/4printing/../include/Case_for_the_Full_Graphic_Smart_LCD_Controllerf-Kill_Button_FGD.stl \

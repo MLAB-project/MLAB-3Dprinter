@@ -1,0 +1,5 @@
+../amf/gregs-wade-625.amf: \
+	src/include/functions.scad \
+	src/include/configuration.scad \
+	src/4printing/gregs-wade-625.scad \
+	src/4printing/../include/x-carriage.stl \

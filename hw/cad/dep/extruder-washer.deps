@@ -1,0 +1,2 @@
+../amf/extruder-washer.amf: \
+	src/4printing/extruder-washer.scad \

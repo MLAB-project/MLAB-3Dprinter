@@ -1,0 +1,3 @@
+../amf/profile-cover-hole.amf: \
+	src/include/configuration.scad \
+	src/4printing/profile-cover-hole.scad \

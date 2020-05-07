@@ -1,0 +1,4 @@
+../amf/Front_EURO_12V_240W.amf: \
+	src/include/MLAB_logo.scad \
+	src/include/configuration.scad \
+	src/4printing/Front_EURO_12V_240W.scad \

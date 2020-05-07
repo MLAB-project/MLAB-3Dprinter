@@ -1,0 +1,3 @@
+../amf/z-endstop-holder.amf: \
+	src/include/configuration.scad \
+	src/4printing/z-endstop-holder.scad \

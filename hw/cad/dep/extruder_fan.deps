@@ -1,0 +1,3 @@
+../amf/extruder_fan.amf: \
+	src/include/MLAB_logo.scad \
+	src/4printing/extruder_fan.scad \

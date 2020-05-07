@@ -1,0 +1,5 @@
+../amf/mods_for_display_case_back.amf: \
+	src/include/mods_for_display_case.scad \
+	src/include/MLAB_logo.scad \
+	src/4printing/mods_for_display_case_back.scad \
+	src/4printing/../include/Case_for_the_Full_Graphic_Smart_LCD_Controller-Bottom_Case_FGD.stl \

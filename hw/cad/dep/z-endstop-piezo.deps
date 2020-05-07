@@ -1,0 +1,3 @@
+../amf/z-endstop-piezo.amf: \
+	src/include/polyScrewThread_r1.scad \
+	src/4printing/z-endstop-piezo.scad \

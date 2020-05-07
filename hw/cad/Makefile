@@ -9,7 +9,7 @@ GCODE_DIR := ../amf/gcode
 PLATE_DIMMENSIONS=120
 SIMARRANGE=/usr/local/bin/simarrange
 STLSORT := stlsort
-OPENSCAD_APP := OpenSCAD
+OPENSCAD_APP := openscad
 MERGE_APP := ./merge_modifiers.sh
 SLICER_APP := Slic3r
 VPATH := $(SRC_DIR):$(DEP_DIR):$(AMF_DIR):$(IMG_DIR)
@@ -98,7 +98,7 @@ $(GCODE_DIR)/%.gcode : $(AMF_DIR)/%.amf
 	####################################################################################
 	#
 	# Generate gcode files.
-	$(SLICER_APP) --load config.ini -o $@ --no-gui -j 3 $<
+	$(SLICER_APP) --load $(SRC_DIR)/config.ini -o $@ --no-gui -j 3 $<
 
 arrange : amf
 	$(SIMARRANGE) -x $(PLATE_DIMMENSIONS) -y $(PLATE_DIMMENSIONS) $(ARRANGE_TARGETS)

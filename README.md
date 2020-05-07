@@ -10,7 +10,7 @@ Features
 
 
 
-![RebeliX](Rebelix_render.png "Preview of assembled printer" )
+![RebeliX](doc/src/img/Rebelix_render.png "Preview of assembled printer" )
 
 
 

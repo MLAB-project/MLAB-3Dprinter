@@ -38,14 +38,14 @@ $(AMF_DIR)/%.amf : $(SRC_DIR)/%.scad
 	####################################################################################
 	#
 	# Update dependencies and make no-draft version of model in AMF.
-	$(OPENSCAD_APP) -q -D "draft = false" -m make -o $@ -d $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@) $<
+	$(OPENSCAD_APP) -D "draft = false" -m make -o $@ -d $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@) $<
 	# Remove absolute paths in dependencies.
 	sed -i "s|$(shell pwd)/||" $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@)
 	# Sort deps file to keep git changes to minimum.
 	sort -rf $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@) -o $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@)
 	sed -i 's|[^\]$$|& \\|' $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@)
 	# Add modifiers to AMF files.
-	$(MERGE_APP) -v -a $@ -s $<
+	$(MERGE_APP) -a $@ -s $<
 
 include $(wildcard $(DEP_DIR)/*.deps)
 
@@ -57,7 +57,7 @@ $(STL_DIR)/%.stl : $(AMF_DIR)/%.amf
 	####################################################################################
 	#
 	# Make no-draft version of model in STL.
-	$(OPENSCAD_APP) -q -D "draft = false" -m make -o $@ $(patsubst $(STL_DIR)/%.stl, $(SRC_DIR)/%.scad, $@)
+	$(OPENSCAD_APP) -D "draft = false" -m make -o $@ $(patsubst $(STL_DIR)/%.stl, $(SRC_DIR)/%.scad, $@)
 	# Sort stl file to keep git changes to minimum.
 	$(STLSORT) $@ || :
 
@@ -71,7 +71,7 @@ $(IMG_DIR)/%.png : $(STL_DIR)/%.stl
 	# Create temporary file for fast image rendering.
 	-echo "import(\"$<\");" > tmp.scad
 	# Render PNG image from temporary file.
-	$(OPENSCAD_APP) -q -o $@ tmp.scad
+	$(OPENSCAD_APP) -o $@ tmp.scad
 	# Remove temporary file
 	rm -f tmp.scad
 

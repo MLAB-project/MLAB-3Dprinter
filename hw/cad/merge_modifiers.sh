@@ -17,7 +17,7 @@
 #  Return values: 0 - OK
 ######################################################################
 function parse_params {
-  for param in HELP VERBOSE ; do
+  for param in HELP VERBOSE DEBUG QUIET; do
     # !param means $($param) -> if $param=one and $one=two then ${!param}=two
     if [ -z "${!param}" ] ; then
       eval ${param}=false
@@ -32,21 +32,21 @@ function parse_params {
       case ${param_prev} in
         --amf )
           amf="${param}"
-          verbose_print "Using ${amf} as base."
+          debug_print "Using ${amf} as base."
           param_prev=""
         ;;
         --output )
           out="${param}"
-          verbose_print "Output to ${out}."
+          debug_print "Output to ${out}."
           param_prev=""
         ;;
         --scad )
           scad="${param}"
-          verbose_print "Merge based on file ${scad}."
+          debug_print "Merge based on file ${scad}."
           param_prev=""
         ;;
         * )
-          verbose_print "Unknown parameter [${param}]."
+          warning_print "Unknown parameter [${param}]."
       esac
       continue
     fi
@@ -65,17 +65,72 @@ function parse_params {
       -s | --scad )
          param_prev="--scad"
       ;;
+      -q | --quiet )
+         param_prev=""
+         QUIET=true
+         debug_print "QUIET set to TRUE"
+      ;;
+      -vv | --debug )
+         param_prev=""
+         VERBOSE=true
+         DEBUG=true
+         debug_print "VERBOSE set to TRUE"
+         debug_print "DEBUG set to TRUE"
+      ;;
       -v | --verbose )
          param_prev=""
          VERBOSE=true
-         verbose_print "VERBOSE set to TRUE"
+         debug_print "VERBOSE set to TRUE"
       ;;
       * )
-        verbose_print "Unknown parameter [${param}]."
+        warning_print "Unknown parameter [${param}]."
     esac
 
   done
 }
+######################################################################
+#
+#         Function: warning_print
+#
+#      Description: Looks for -q in $OPTION to set supress warnings.
+#
+#           Inputs:
+#
+# Global variables: QUIET
+#
+#          Outputs: Prints given text unless QUIET is set
+#
+#    Return values: 0 - OK
+######################################################################
+function warning_print {
+  if ! ${QUIET:-false} ; then
+    local text="$*"
+    printf "WARNING ${text}\n" >&2
+  fi
+}
+
+######################################################################
+#
+#         Function: debug_print
+#
+#      Description: Looks for -vv in $OPTION to set debug mode.
+#
+#           Inputs:
+#
+# Global variables: DEBUG
+#
+#          Outputs: Prints given text if DEBUG is set
+#
+#    Return values: 0 - OK
+######################################################################
+function debug_print {
+  if ${DEBUG:-false} ; then
+    local text="$*"
+    printf "DEBUG ${text}\n" >&2
+  fi
+}
+
+
 ######################################################################
 #
 #         Function: verbose_print
@@ -91,7 +146,7 @@ function parse_params {
 #    Return values: 0 - OK
 ######################################################################
 function verbose_print {
-  if $VERBOSE ; then
+  if ${VERBOSE:-false} ; then
     local text="$*"
     printf "${text}\n" >&2
   fi

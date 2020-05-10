@@ -212,13 +212,10 @@ function merge_modifiers {
   # Set variables:
   _num_of_vertices=0
 
-  # Check if file contains any modifiers, if not exit:
-  grep -s -e '//@set_modifier(' ${scad} > /dev/null ||\
-  { verbose_print "File does not contain any modifier." ; exit 0 ; }
-
   # Get base ini file:
   ini_file=$(grep "set_slicing_config([^,]*)$" ${scad} |\
              sed 's/.*(\(.*\))/\1/')
+  ini_file=$(echo ${scad} | sed "s/[^/]*$/\/${ini_file}/")
   # Save parameters from base file to local_parameters.tmp:
   grep "set_slicing_parameter(" ${scad} |\
   sed "s/.*(\([^,]*\), \(.*\))/\1 = \2/" >> local_parameters.tmp
@@ -227,19 +224,23 @@ function merge_modifiers {
     verbose_print "Ini file for base is [${ini_file}]."
     cat ${ini_file} > ini_parameters.tmp
     # Merge parameters to file parameters.tmp (skip local parameters present in ini):
-    cat local_parameters.tmp | sed 's/\([^ ]*\).*/-e "^\1 "/' | tr -s '\n' ' ' |\
-    xargs grep -v ini_parameters.tmp > parameters.tmp
+    if [ -s local_parameters.tmp ]; then
+      cat local_parameters.tmp | sed 's/\([^ ]*\).*/-e "^\1 "/' | tr -s '\n' ' ' |\
+      xargs grep -v ini_parameters.tmp > parameters.tmp
+    else
+      cat ini_parameters.tmp > parameters.tmp
+    fi
   else
     verbose_print "Ini file for base not found."
     rm -f parameters.tmp
   fi
   cat local_parameters.tmp >> parameters.tmp
   # Add vertices opening tag:
-  echo "  <vertices>" >> vertices.tmp
+  echo "   <vertices>" >> vertices.tmp
   # Write all vertices from base amf to temporary vertices file:
   sed -n '/<vertex>/,/<\/vertex>/p' ${amf} >> vertices.tmp
   # Add volume opening tag:
-  echo "  <volume>" >> volumes.tmp
+  echo "   <volume>" >> volumes.tmp
   # Write volume from current file:
   sed -n '/<triangle>/,/<\/triangle>/p' ${amf} |\
   # With renumbered indexes of vertices:
@@ -250,7 +251,7 @@ function merge_modifiers {
   sed 's/^\([^ ]*\) *= *\(.*\)/  <metadata type="slic3r.\1">\2<\/metadata>/'\
   >> volumes.tmp
   # Add volume closing tag:
-  echo "  </volume>" >> volumes.tmp
+  echo "   </volume>" >> volumes.tmp
   # Get current number of vertices in tmp file (used for next volumes offset):
   _num_of_vertices=$(grep '<vertex>' vertices.tmp | wc -l | sed 's/ //g')
   # Make modifiers:
@@ -298,7 +299,7 @@ function merge_modifiers {
     sed 's/^\([^ ]*\) *= *\(.*\)/  <metadata type="slic3r.\1">\2<\/metadata>/'\
     >> volumes.tmp
     # Add volume closing tag:
-    echo "  </volume>" >> volumes.tmp
+    echo "   </volume>" >> volumes.tmp
     # Get current number of vertices in tmp file (used for next volumes offset):
     _num_of_vertices=$(grep '<vertex>' vertices.tmp | wc -l | sed 's/ //g')
     # Remove temoporary modifier file:
@@ -306,18 +307,18 @@ function merge_modifiers {
   done
 
   # Add vertices closing tag:
-  echo "  </vertices>" >> vertices.tmp
+  echo "   </vertices>" >> vertices.tmp
 
   # Merge temporary files into one AMF file:
   sed -n '/xml/,/<mesh>/p' ${amf} | sed 's/\r//' > result.amf
   cat vertices.tmp volumes.tmp | sed 's/\r//' >> result.amf
   sed -n '/<\/mesh>/,//p' ${amf} | sed 's/\r//' >> result.amf
 
-  # Move merged AMF to amf folder with _mod suffix:
+  # Move merged AMF to amf folder:
   if [ -n "${out}" ]; then
     mv result.amf ${out}
   else
-    mv result.amf $(echo ${amf} | sed 's/\.amf$/_mod.amf/')
+    mv result.amf ${amf}
   fi
 
   # Clean-up tmp files

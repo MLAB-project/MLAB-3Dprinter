@@ -106,5 +106,5 @@ arrange : amf
 clean:
 	rm -f calibration.stl
 	rm -f $(AMF_DIR)/*.amf
-	rm -f $(AMF_DIR)/*.stl
+	rm -f $(STL_DIR)/*.stl
 	rm -f $(IMG_DIR)/*.png

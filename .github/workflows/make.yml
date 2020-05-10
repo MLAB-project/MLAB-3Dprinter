@@ -36,4 +36,4 @@ jobs:
         #pip3 install --upgrade pip
         #sudo snap install openscad-nightly
     - name: Make
-      run: Make -C hw/cad
+      run: make -C hw/cad

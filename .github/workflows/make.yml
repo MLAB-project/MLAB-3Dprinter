@@ -34,6 +34,7 @@ jobs:
         sudo apt install -y slic3r
         slic3r --version
         sudo snap install openscad-nightly
-        alias openscad="openscad-nightly"
     - name: Make
-      run: make -C hw/cad
+      run: |
+        alias openscad="openscad-nightly"
+        make -C hw/cad

@@ -220,7 +220,7 @@ function merge_modifiers {
   grep "set_slicing_parameter(" ${scad} |\
   sed "s/.*(\([^,]*\), \(.*\))/\1 = \2/" >> local_parameters.tmp
   # If ini file exists in given path, get parameters from file:
-  if test -e "${ini_file}"; then
+  if test -f "${ini_file}"; then
     verbose_print "Ini file for base is [${ini_file}]."
     cat ${ini_file} > ini_parameters.tmp
     # Merge parameters to file parameters.tmp (skip local parameters present in ini):

@@ -69,7 +69,7 @@ $(IMG_DIR)/%.png : $(STL_DIR)/%.stl
 	####################################################################################
 	#
 	# Create temporary file for fast image rendering.
-	-echo "import(\"$<\");" > tmp.scad
+	echo "import(\"$<\");" > tmp.scad
 	# Render PNG image from temporary file.
 	$(OPENSCAD_APP) -o $@ tmp.scad
 	# Remove temporary file

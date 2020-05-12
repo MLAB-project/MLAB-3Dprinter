@@ -29,6 +29,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Set-up an environment
       run: |
+        sudo mkdir -p /run/user/1001
+        sudo chown runner:runner /run/user/1001
         wget https://dl.slic3r.org/linux/Slic3r-1.3.0-x86_64.AppImage -O ~/Slic3r.AppImage
         chmod +x ~/Slic3r.AppImage
         sudo apt install -y slic3r

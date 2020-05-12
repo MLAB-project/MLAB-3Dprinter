@@ -35,6 +35,4 @@ jobs:
         sudo snap install openscad-nightly
     - name: Make
       run: |
-        alias openscad=openscad-nightly
-        openscad --version
         make -C hw/cad

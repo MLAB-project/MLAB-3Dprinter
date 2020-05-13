@@ -102,7 +102,7 @@ $(GCODE_DIR)/%.gcode : $(AMF_DIR)/%.amf
 	####################################################################################
 	#
 	# Generate gcode files.
-	$(SLICER_APP) --load $(SRC_DIR)/$(SLICER_CFG) -o $@ --no-gui -j 3 $<
+	$(SLICER_APP) --load $(SRC_DIR)/$(SLICER_CFG) -o $@ -j 3 $<
 
 arrange : amf
 	$(SIMARRANGE) -x $(PLATE_DIMMENSIONS) -y $(PLATE_DIMMENSIONS) $(ARRANGE_TARGETS)

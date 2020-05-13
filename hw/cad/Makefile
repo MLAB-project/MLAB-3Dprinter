@@ -23,9 +23,11 @@ TARGETS := $(patsubst $(SRC_DIR)/%.scad, $(AMF_DIR)/%.amf, $(SOURCES))
 IMAGES := $(patsubst $(SRC_DIR)/%.scad, $(IMG_DIR)/%.png, $(SOURCES))
 GCODE := $(patsubst $(AMF_DIR)/%.amf, $(GCODE_DIR)/%.gcode, $(AMF))
 
-all : amf images stl gcode
+all : amf gcode stl images
 
 print : amf gcode
+
+view : stl images
 
 calibration:
 	openscad -m make -o calibration.stl calibration.scad

@@ -4521,10 +4521,17 @@ solid model
       vertex 106.889 32.0727 15.6
     endloop
   endfacet
-  facet normal 0 0 1
+  facet normal -0 -0 1
     outer loop
       vertex 106.116 33.6887 15.6
       vertex 106.889 32.0727 15.6
+      vertex 107.586 32.0351 15.6
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 106.116 33.6887 15.6
+      vertex 107.586 32.0351 15.6
       vertex 106.708 33.819 15.6
     endloop
   endfacet
@@ -4736,13 +4743,6 @@ solid model
       vertex 106.708 33.819 -0.4
       vertex 107.586 32.0351 15.6
       vertex 107.586 32.0351 -0.4
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 106.708 33.819 15.6
-      vertex 106.889 32.0727 15.6
-      vertex 107.586 32.0351 15.6
     endloop
   endfacet
   facet normal 0.897287 -0.441448 0

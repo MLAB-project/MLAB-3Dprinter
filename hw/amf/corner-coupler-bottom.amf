@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <amf unit="millimeter">
- <metadata type="producer">OpenSCAD 2020.05.03 (git 648206e2)</metadata>
+ <metadata type="producer">OpenSCAD 2020.01.25</metadata>
  <object id="0">
   <mesh>
    <vertices>
@@ -2505,6 +2505,11 @@
      <z>2.07107</z>
     </coordinates></vertex>
     <vertex><coordinates>
+     <x>13.6142</x>
+     <y>-3.42597</y>
+     <z>4.5</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
      <x>13.5</x>
      <y>-4</y>
      <z>4.5</z>
@@ -2512,11 +2517,6 @@
     <vertex><coordinates>
      <x>13.6142</x>
      <y>-4.57402</y>
-     <z>4.5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>13.6142</x>
-     <y>-3.42597</y>
      <z>4.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -6917,34 +6917,34 @@
      <v3>498</v3>
     </triangle>
     <triangle>
-     <v1>500</v1>
-     <v2>501</v2>
-     <v3>352</v3>
-    </triangle>
-    <triangle>
-     <v1>351</v1>
-     <v2>500</v2>
-     <v3>352</v3>
-    </triangle>
-    <triangle>
      <v1>350</v1>
-     <v2>502</v2>
-     <v3>500</v3>
+     <v2>500</v2>
+     <v3>501</v3>
     </triangle>
     <triangle>
      <v1>351</v1>
      <v2>350</v2>
-     <v3>500</v3>
+     <v3>501</v3>
+    </triangle>
+    <triangle>
+     <v1>501</v1>
+     <v2>502</v2>
+     <v3>352</v3>
+    </triangle>
+    <triangle>
+     <v1>351</v1>
+     <v2>501</v2>
+     <v3>352</v3>
     </triangle>
     <triangle>
      <v1>348</v1>
      <v2>503</v2>
-     <v3>502</v3>
+     <v3>500</v3>
     </triangle>
     <triangle>
      <v1>350</v1>
      <v2>348</v2>
-     <v3>502</v3>
+     <v3>500</v3>
     </triangle>
     <triangle>
      <v1>349</v1>
@@ -7067,13 +7067,13 @@
      <v3>353</v3>
     </triangle>
     <triangle>
-     <v1>501</v1>
+     <v1>502</v1>
      <v2>515</v2>
      <v3>353</v3>
     </triangle>
     <triangle>
      <v1>352</v1>
-     <v2>501</v2>
+     <v2>502</v2>
      <v3>353</v3>
     </triangle>
     <triangle>
@@ -7272,7 +7272,7 @@
      <v3>397</v3>
     </triangle>
     <triangle>
-     <v1>501</v1>
+     <v1>502</v1>
      <v2>390</v2>
      <v3>398</v3>
     </triangle>
@@ -7383,18 +7383,18 @@
     </triangle>
     <triangle>
      <v1>399</v1>
-     <v2>501</v2>
+     <v2>502</v2>
      <v3>398</v3>
+    </triangle>
+    <triangle>
+     <v1>501</v1>
+     <v2>390</v2>
+     <v3>502</v3>
     </triangle>
     <triangle>
      <v1>500</v1>
      <v2>390</v2>
      <v3>501</v3>
-    </triangle>
-    <triangle>
-     <v1>502</v1>
-     <v2>390</v2>
-     <v3>500</v3>
     </triangle>
     <triangle>
      <v1>503</v1>
@@ -7478,11 +7478,11 @@
     </triangle>
     <triangle>
      <v1>515</v1>
-     <v2>501</v2>
+     <v2>502</v2>
      <v3>399</v3>
     </triangle>
     <triangle>
-     <v1>502</v1>
+     <v1>500</v1>
      <v2>503</v2>
      <v3>390</v3>
     </triangle>

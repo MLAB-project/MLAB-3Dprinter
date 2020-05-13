@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <amf unit="millimeter">
- <metadata type="producer">OpenSCAD 2020.05.03 (git 648206e2)</metadata>
+ <metadata type="producer">OpenSCAD 2020.01.25</metadata>
  <object id="0">
   <mesh>
    <vertices>
@@ -2607,16 +2607,6 @@
      <v3>158</v3>
     </triangle>
     <triangle>
-     <v1>162</v1>
-     <v2>199</v2>
-     <v3>87</v3>
-    </triangle>
-    <triangle>
-     <v1>88</v1>
-     <v2>162</v2>
-     <v3>87</v3>
-    </triangle>
-    <triangle>
      <v1>101</v1>
      <v2>126</v2>
      <v3>162</v3>
@@ -2625,6 +2615,16 @@
      <v1>88</v1>
      <v2>101</v2>
      <v3>162</v3>
+    </triangle>
+    <triangle>
+     <v1>162</v1>
+     <v2>199</v2>
+     <v3>87</v3>
+    </triangle>
+    <triangle>
+     <v1>88</v1>
+     <v2>162</v2>
+     <v3>87</v3>
     </triangle>
     <triangle>
      <v1>99</v1>

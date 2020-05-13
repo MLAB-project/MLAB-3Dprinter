@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <amf unit="millimeter">
- <metadata type="producer">OpenSCAD 2020.05.03 (git 648206e2)</metadata>
+ <metadata type="producer">OpenSCAD 2020.01.25</metadata>
  <object id="0">
   <mesh>
    <vertices>
@@ -85,6 +85,11 @@
      <z>0.799999</z>
     </coordinates></vertex>
     <vertex><coordinates>
+     <x>18.68</x>
+     <y>18.68</y>
+     <z>5</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
      <x>11.32</x>
      <y>18.68</y>
      <z>5</z>
@@ -92,11 +97,6 @@
     <vertex><coordinates>
      <x>11.32</x>
      <y>11.32</y>
-     <z>5</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>18.68</x>
-     <y>18.68</y>
      <z>5</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -367,27 +367,27 @@
      <v3>15</v3>
     </triangle>
     <triangle>
-     <v1>8</v1>
+     <v1>4</v1>
      <v2>16</v2>
      <v3>17</v3>
     </triangle>
     <triangle>
-     <v1>9</v1>
-     <v2>8</v2>
+     <v1>8</v1>
+     <v2>4</v2>
      <v3>17</v3>
     </triangle>
     <triangle>
-     <v1>4</v1>
-     <v2>18</v2>
-     <v3>16</v3>
-    </triangle>
-    <triangle>
      <v1>8</v1>
-     <v2>4</v2>
-     <v3>16</v3>
+     <v2>17</v2>
+     <v3>18</v3>
     </triangle>
     <triangle>
-     <v1>18</v1>
+     <v1>9</v1>
+     <v2>8</v2>
+     <v3>18</v3>
+    </triangle>
+    <triangle>
+     <v1>16</v1>
      <v2>4</v2>
      <v3>19</v3>
     </triangle>
@@ -399,10 +399,10 @@
     <triangle>
      <v1>19</v1>
      <v2>5</v2>
-     <v3>17</v3>
+     <v3>18</v3>
     </triangle>
     <triangle>
-     <v1>17</v1>
+     <v1>18</v1>
      <v2>5</v2>
      <v3>9</v3>
     </triangle>
@@ -527,43 +527,43 @@
      <v3>32</v3>
     </triangle>
     <triangle>
-     <v1>17</v1>
+     <v1>18</v1>
      <v2>40</v2>
      <v3>41</v3>
     </triangle>
     <triangle>
      <v1>19</v1>
-     <v2>17</v2>
+     <v2>18</v2>
      <v3>41</v3>
     </triangle>
     <triangle>
      <v1>42</v1>
      <v2>40</v2>
-     <v3>17</v3>
+     <v3>18</v3>
     </triangle>
     <triangle>
-     <v1>18</v1>
+     <v1>16</v1>
      <v2>19</v2>
      <v3>41</v3>
     </triangle>
     <triangle>
      <v1>42</v1>
-     <v2>17</v2>
-     <v3>16</v3>
+     <v2>18</v2>
+     <v3>17</v3>
     </triangle>
     <triangle>
      <v1>43</v1>
-     <v2>18</v2>
+     <v2>16</v2>
      <v3>41</v3>
     </triangle>
     <triangle>
      <v1>43</v1>
      <v2>42</v2>
-     <v3>18</v3>
+     <v3>16</v3>
     </triangle>
     <triangle>
-     <v1>16</v1>
-     <v2>18</v2>
+     <v1>17</v1>
+     <v2>16</v2>
      <v3>42</v3>
     </triangle>
     <triangle>
@@ -688,16 +688,6 @@
     </triangle>
     <triangle>
      <v1>42</v1>
-     <v2>43</v2>
-     <v3>47</v3>
-    </triangle>
-    <triangle>
-     <v1>46</v1>
-     <v2>42</v2>
-     <v3>47</v3>
-    </triangle>
-    <triangle>
-     <v1>42</v1>
      <v2>46</v2>
      <v3>40</v3>
     </triangle>
@@ -705,6 +695,16 @@
      <v1>40</v1>
      <v2>46</v2>
      <v3>44</v3>
+    </triangle>
+    <triangle>
+     <v1>42</v1>
+     <v2>43</v2>
+     <v3>47</v3>
+    </triangle>
+    <triangle>
+     <v1>46</v1>
+     <v2>42</v2>
+     <v3>47</v3>
     </triangle>
     <triangle>
      <v1>45</v1>

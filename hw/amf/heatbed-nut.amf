@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <amf unit="millimeter">
- <metadata type="producer">OpenSCAD 2020.05.03 (git 648206e2)</metadata>
+ <metadata type="producer">OpenSCAD 2020.01.25</metadata>
  <object id="0">
   <mesh>
    <vertices>
@@ -2655,6 +2655,11 @@
      <z>1.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
+     <x>-5</x>
+     <y>0</y>
+     <z>2</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
      <x>-4.89074</x>
      <y>-1.03956</y>
      <z>2</z>
@@ -2662,11 +2667,6 @@
     <vertex><coordinates>
      <x>-4.56773</x>
      <y>-2.03368</y>
-     <z>2</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-5</x>
-     <y>0</y>
      <z>2</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -8107,32 +8107,32 @@
      <v3>495</v3>
     </triangle>
     <triangle>
-     <v1>519</v1>
-     <v2>520</v2>
+     <v1>511</v1>
+     <v2>519</v2>
      <v3>530</v3>
     </triangle>
     <triangle>
      <v1>530</v1>
+     <v2>519</v2>
+     <v3>531</v3>
+    </triangle>
+    <triangle>
+     <v1>519</v1>
      <v2>520</v2>
      <v3>531</v3>
     </triangle>
     <triangle>
-     <v1>511</v1>
-     <v2>519</v2>
+     <v1>531</v1>
+     <v2>520</v2>
      <v3>532</v3>
-    </triangle>
-    <triangle>
-     <v1>532</v1>
-     <v2>519</v2>
-     <v3>530</v3>
     </triangle>
     <triangle>
      <v1>520</v1>
      <v2>527</v2>
-     <v3>531</v3>
+     <v3>532</v3>
     </triangle>
     <triangle>
-     <v1>531</v1>
+     <v1>532</v1>
      <v2>527</v2>
      <v3>533</v3>
     </triangle>
@@ -8398,28 +8398,28 @@
     </triangle>
     <triangle>
      <v1>511</v1>
-     <v2>532</v2>
+     <v2>530</v2>
      <v3>509</v3>
     </triangle>
     <triangle>
      <v1>509</v1>
-     <v2>532</v2>
+     <v2>530</v2>
      <v3>559</v3>
     </triangle>
     <triangle>
      <v1>559</v1>
-     <v2>532</v2>
-     <v3>530</v3>
+     <v2>530</v2>
+     <v3>531</v3>
     </triangle>
     <triangle>
      <v1>533</v1>
      <v2>559</v2>
-     <v3>531</v3>
+     <v3>532</v3>
     </triangle>
     <triangle>
-     <v1>531</v1>
+     <v1>532</v1>
      <v2>559</v2>
-     <v3>530</v3>
+     <v3>531</v3>
     </triangle>
     <triangle>
      <v1>534</v1>

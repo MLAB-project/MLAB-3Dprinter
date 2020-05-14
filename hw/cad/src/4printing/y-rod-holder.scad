@@ -51,8 +51,13 @@ module y_cuts(){
  translate([0,0,height/2 + 8/2]) rotate([180 - 40,0,0]) cube([width,2,8]);
 }
 
+module y_rod_holder(){
 rotate([180,0,0]) 
 difference(){
 	y_rod_holder_base();
 	y_cuts();
-}	    
+}
+
+}
+
+y_rod_holder();

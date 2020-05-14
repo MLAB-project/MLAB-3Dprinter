@@ -65,14 +65,15 @@ module y_motor_holes(){
 	translate([base_thickness+21.3,4+21.3,-0.1]) cylinder(r = 11.8,h = 10,$fn = 64);
 }
 
+module y_motor(){
 difference(){
 	y_motor_base();
 	y_motor_cuts();
 	y_motor_holes();
 }	
+}
 
-translate([0,-13,0]) mirror([0,1,0]) difference(){
-    y_motor_base();
-    y_motor_cuts();
-    y_motor_holes();
-}   
+ y_motor();
+
+translate([0,-13,0]) mirror([0,1,0])
+ y_motor();

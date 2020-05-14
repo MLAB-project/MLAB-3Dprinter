@@ -7,6 +7,7 @@
 
 include <../include/configuration.scad>
 
+module z_endstop_holder(){
 difference(){
 	cube([16,27,18], center = false);
 	union() {
@@ -30,4 +31,7 @@ difference(){
 		translate([-0.1,17,4])rotate([0,90,0])cylinder(h = 2.5, r=M3_nut_diameter_horizontal/2, $fn=6);	
 	}
 }
+}
 
+/// Show the part
+z_endstop_holder();

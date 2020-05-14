@@ -80,12 +80,10 @@ module z_top(){
   z_top_cuts();
   z_top_holes();
  }
- 
- translate([0,-13,0]) mirror([0,1,0]) difference(){
-  z_top_base();
-  z_top_cuts();
-  z_top_holes();
- }
-}
+} 
+
+
 
 z_top();
+
+translate([0,-13,0]) mirror([0,1,0]) z_top();

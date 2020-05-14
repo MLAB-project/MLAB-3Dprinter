@@ -72,11 +72,11 @@ module z_bottom(){
   z_bottom_cuts();
   z_bottom_holes();
  }
- translate([0,-13,0]) mirror([0,1,0]) difference(){
-  z_bottom_base();
-  z_bottom_cuts();
-  z_bottom_holes();
  }
-}
+ 
+
 
 z_bottom();
+
+translate([0,-13,0]) mirror([0,1,0])
+ z_bottom();

@@ -66,6 +66,26 @@ difference(){
     }
    }  
 
+// Cela soucastka - pro model tiskarny
+module z_endstop_piezo(){
+  difference(){ 
+    union(){  
+    difference(){
+	z_endstop_piezo_bot_base();
+    z_endstop_piezo_bot_cuts();
+}
+
+
+translate([0,0,vyska_podlozky+vyska_rantlu+1])
+rotate([180, 0, 0])   
+difference(){
+	z_endstop_piezo_top_base();
+    z_endstop_piezo_top_cuts();
+}
+   }
+   }
+}
+
 
 module z_endstop_piezo_bot_base(){
    

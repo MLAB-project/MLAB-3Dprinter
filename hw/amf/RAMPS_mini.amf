@@ -1095,11 +1095,6 @@
      <z>20</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>36.5</x>
-     <y>24.9</y>
-     <z>4.9</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
      <x>-3.5</x>
      <y>24.9</y>
      <z>4.9</z>
@@ -1107,6 +1102,11 @@
     <vertex><coordinates>
      <x>-3.5</x>
      <y>23</y>
+     <z>4.9</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>36.5</x>
+     <y>24.9</y>
      <z>4.9</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -3547,27 +3547,27 @@
      <v3>216</v3>
     </triangle>
     <triangle>
-     <v1>170</v1>
+     <v1>169</v1>
      <v2>218</v2>
      <v3>219</v3>
     </triangle>
     <triangle>
-     <v1>169</v1>
-     <v2>170</v2>
+     <v1>165</v1>
+     <v2>169</v2>
      <v3>219</v3>
     </triangle>
     <triangle>
+     <v1>170</v1>
+     <v2>220</v2>
+     <v3>218</v3>
+    </triangle>
+    <triangle>
      <v1>169</v1>
-     <v2>219</v2>
-     <v3>220</v3>
+     <v2>170</v2>
+     <v3>218</v3>
     </triangle>
     <triangle>
-     <v1>165</v1>
-     <v2>169</v2>
-     <v3>220</v3>
-    </triangle>
-    <triangle>
-     <v1>218</v1>
+     <v1>220</v1>
      <v2>170</v2>
      <v3>221</v3>
     </triangle>
@@ -3579,10 +3579,10 @@
     <triangle>
      <v1>221</v1>
      <v2>164</v2>
-     <v3>220</v3>
+     <v3>219</v3>
     </triangle>
     <triangle>
-     <v1>220</v1>
+     <v1>219</v1>
      <v2>164</v2>
      <v3>165</v3>
     </triangle>
@@ -4117,14 +4117,14 @@
      <v3>188</v3>
     </triangle>
     <triangle>
+     <v1>220</v1>
+     <v2>221</v2>
+     <v3>218</v3>
+    </triangle>
+    <triangle>
      <v1>218</v1>
      <v2>221</v2>
      <v3>219</v3>
-    </triangle>
-    <triangle>
-     <v1>219</v1>
-     <v2>221</v2>
-     <v3>220</v3>
     </triangle>
     <triangle>
      <v1>255</v1>

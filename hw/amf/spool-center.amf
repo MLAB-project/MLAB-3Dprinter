@@ -2035,6 +2035,11 @@
      <z>4.5</z>
     </coordinates></vertex>
     <vertex><coordinates>
+     <x>-4.30385</x>
+     <y>0.914811</y>
+     <z>3</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
      <x>-4.4</x>
      <y>0</y>
      <z>3</z>
@@ -2042,11 +2047,6 @@
     <vertex><coordinates>
      <x>-4.30385</x>
      <y>-0.914811</y>
-     <z>3</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
-     <x>-4.30385</x>
-     <y>0.914811</y>
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -2895,11 +2895,6 @@
      <z>3</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-15.5</x>
-     <y>0</y>
-     <z>8</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
      <x>-15.4254</x>
      <y>-1.51927</y>
      <z>8</z>
@@ -2907,6 +2902,11 @@
     <vertex><coordinates>
      <x>-15.2022</x>
      <y>-3.0239</y>
+     <z>8</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-15.5</x>
+     <y>0</y>
      <z>8</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -3215,11 +3215,6 @@
      <z>8</z>
     </coordinates></vertex>
     <vertex><coordinates>
-     <x>-9.5</x>
-     <y>0</y>
-     <z>8</z>
-    </coordinates></vertex>
-    <vertex><coordinates>
      <x>-9.2924</x>
      <y>-1.97516</y>
      <z>8</z>
@@ -3227,6 +3222,11 @@
     <vertex><coordinates>
      <x>-8.67868</x>
      <y>-3.864</y>
+     <z>8</z>
+    </coordinates></vertex>
+    <vertex><coordinates>
+     <x>-9.5</x>
+     <y>0</y>
      <z>8</z>
     </coordinates></vertex>
     <vertex><coordinates>
@@ -6257,34 +6257,34 @@
      <v3>1</v3>
     </triangle>
     <triangle>
-     <v1>406</v1>
-     <v2>407</v2>
-     <v3>175</v3>
-    </triangle>
-    <triangle>
-     <v1>171</v1>
-     <v2>406</v2>
-     <v3>175</v3>
-    </triangle>
-    <triangle>
      <v1>172</v1>
-     <v2>408</v2>
-     <v3>406</v3>
+     <v2>406</v2>
+     <v3>407</v3>
     </triangle>
     <triangle>
      <v1>171</v1>
      <v2>172</v2>
-     <v3>406</v3>
+     <v3>407</v3>
+    </triangle>
+    <triangle>
+     <v1>407</v1>
+     <v2>408</v2>
+     <v3>175</v3>
+    </triangle>
+    <triangle>
+     <v1>171</v1>
+     <v2>407</v2>
+     <v3>175</v3>
     </triangle>
     <triangle>
      <v1>198</v1>
      <v2>409</v2>
-     <v3>408</v3>
+     <v3>406</v3>
     </triangle>
     <triangle>
      <v1>172</v1>
      <v2>198</v2>
-     <v3>408</v3>
+     <v3>406</v3>
     </triangle>
     <triangle>
      <v1>194</v1>
@@ -6547,13 +6547,13 @@
      <v3>177</v3>
     </triangle>
     <triangle>
-     <v1>407</v1>
+     <v1>408</v1>
      <v2>435</v2>
      <v3>81</v3>
     </triangle>
     <triangle>
      <v1>175</v1>
-     <v2>407</v2>
+     <v2>408</v2>
      <v3>81</v3>
     </triangle>
     <triangle>
@@ -8354,7 +8354,7 @@
     <triangle>
      <v1>409</v1>
      <v2>548</v2>
-     <v3>408</v3>
+     <v3>406</v3>
     </triangle>
     <triangle>
      <v1>411</v1>
@@ -8493,7 +8493,7 @@
     </triangle>
     <triangle>
      <v1>435</v1>
-     <v2>407</v2>
+     <v2>408</v2>
      <v3>548</v3>
     </triangle>
     <triangle>
@@ -8507,13 +8507,13 @@
      <v3>576</v3>
     </triangle>
     <triangle>
-     <v1>407</v1>
-     <v2>406</v2>
+     <v1>408</v1>
+     <v2>407</v2>
      <v3>548</v3>
     </triangle>
     <triangle>
-     <v1>406</v1>
-     <v2>408</v2>
+     <v1>407</v1>
+     <v2>406</v2>
      <v3>548</v3>
     </triangle>
     <triangle>
@@ -8677,32 +8677,32 @@
      <v3>529</v3>
     </triangle>
     <triangle>
-     <v1>506</v1>
-     <v2>442</v2>
+     <v1>442</v1>
+     <v2>512</v2>
      <v3>578</v3>
     </triangle>
     <triangle>
      <v1>578</v1>
+     <v2>512</v2>
+     <v3>579</v3>
+    </triangle>
+    <triangle>
+     <v1>506</v1>
      <v2>442</v2>
-     <v3>579</v3>
-    </triangle>
-    <triangle>
-     <v1>442</v1>
-     <v2>512</v2>
-     <v3>579</v3>
-    </triangle>
-    <triangle>
-     <v1>579</v1>
-     <v2>512</v2>
-     <v3>580</v3>
-    </triangle>
-    <triangle>
-     <v1>512</v1>
-     <v2>508</v2>
      <v3>580</v3>
     </triangle>
     <triangle>
      <v1>580</v1>
+     <v2>442</v2>
+     <v3>578</v3>
+    </triangle>
+    <triangle>
+     <v1>512</v1>
+     <v2>508</v2>
+     <v3>579</v3>
+    </triangle>
+    <triangle>
+     <v1>579</v1>
      <v2>508</v2>
      <v3>581</v3>
     </triangle>
@@ -9308,43 +9308,43 @@
     </triangle>
     <triangle>
      <v1>506</v1>
-     <v2>578</v2>
+     <v2>580</v2>
      <v3>482</v3>
     </triangle>
     <triangle>
      <v1>482</v1>
-     <v2>578</v2>
+     <v2>580</v2>
      <v3>641</v3>
     </triangle>
     <triangle>
      <v1>642</v1>
      <v2>643</v2>
-     <v3>548</v3>
-    </triangle>
-    <triangle>
-     <v1>573</v1>
-     <v2>642</v2>
-     <v3>548</v3>
-    </triangle>
-    <triangle>
-     <v1>643</v1>
-     <v2>644</v2>
      <v3>549</v3>
     </triangle>
     <triangle>
      <v1>548</v1>
-     <v2>643</v2>
+     <v2>642</v2>
      <v3>549</v3>
+    </triangle>
+    <triangle>
+     <v1>644</v1>
+     <v2>642</v2>
+     <v3>548</v3>
+    </triangle>
+    <triangle>
+     <v1>573</v1>
+     <v2>644</v2>
+     <v3>548</v3>
     </triangle>
     <triangle>
      <v1>572</v1>
      <v2>645</v2>
-     <v3>642</v3>
+     <v3>644</v3>
     </triangle>
     <triangle>
      <v1>573</v1>
      <v2>572</v2>
-     <v3>642</v3>
+     <v3>644</v3>
     </triangle>
     <triangle>
      <v1>571</v1>
@@ -9607,29 +9607,29 @@
      <v3>552</v3>
     </triangle>
     <triangle>
-     <v1>644</v1>
+     <v1>643</v1>
      <v2>671</v2>
      <v3>550</v3>
     </triangle>
     <triangle>
      <v1>549</v1>
-     <v2>644</v2>
+     <v2>643</v2>
      <v3>550</v3>
     </triangle>
     <triangle>
      <v1>641</v1>
-     <v2>578</v2>
-     <v3>579</v3>
+     <v2>580</v2>
+     <v3>578</v3>
     </triangle>
     <triangle>
      <v1>581</v1>
      <v2>641</v2>
-     <v3>580</v3>
+     <v3>579</v3>
     </triangle>
     <triangle>
-     <v1>580</v1>
+     <v1>579</v1>
      <v2>641</v2>
-     <v3>579</v3>
+     <v3>578</v3>
     </triangle>
     <triangle>
      <v1>582</v1>
@@ -10048,7 +10048,7 @@
     </triangle>
     <triangle>
      <v1>671</v1>
-     <v2>644</v2>
+     <v2>643</v2>
      <v3>641</v3>
     </triangle>
     <triangle>
@@ -10057,8 +10057,8 @@
      <v3>599</v3>
     </triangle>
     <triangle>
-     <v1>644</v1>
-     <v2>643</v2>
+     <v1>643</v1>
+     <v2>642</v2>
      <v3>641</v3>
     </triangle>
     <triangle>
@@ -10072,8 +10072,8 @@
      <v3>600</v3>
     </triangle>
     <triangle>
-     <v1>643</v1>
-     <v2>642</v2>
+     <v1>642</v1>
+     <v2>644</v2>
      <v3>641</v3>
     </triangle>
     <triangle>
@@ -10082,7 +10082,7 @@
      <v3>602</v3>
     </triangle>
     <triangle>
-     <v1>642</v1>
+     <v1>644</v1>
      <v2>645</v2>
      <v3>641</v3>
     </triangle>

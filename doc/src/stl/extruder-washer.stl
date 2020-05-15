@@ -1,5 +1,5 @@
 solid model
-  facet normal 0.0784584 0.996917 -0
+  facet normal 0.0784584 0.996917 0
     outer loop
       vertex -0.406729 -2.56799 0
       vertex -0.406729 -2.56799 3.9

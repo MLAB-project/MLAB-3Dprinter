@@ -1,5 +1,5 @@
 solid model
-  facet normal 0 0 1
+  facet normal -0 0 1
     outer loop
       vertex -0.218933 3.41877 10.8661
       vertex 0.128693 2.42537 10.8661

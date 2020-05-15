@@ -9,6 +9,7 @@ GCODE_DIR := ../amf/gcode
 PLATE_DIMMENSIONS=120
 SIMARRANGE=/usr/local/bin/simarrange
 STLSORT := stlsort
+AMFSORT := ./amfsort.py
 OPENSCAD_APP := $(shell which openscad || which openscad-nightly)
 MERGE_APP := ./merge_modifiers.sh
 SLICER_APP := slic3r
@@ -48,6 +49,8 @@ $(AMF_DIR)/%.amf : $(SRC_DIR)/%.scad
 	# Sort deps file to keep git changes to minimum.
 	sort -rf $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@) -o $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@)
 	sed -i 's|[^\]$$|& \\|' $(patsubst $(AMF_DIR)/%.amf, $(DEP_DIR)/%.deps, $@)
+	# Sort AMF file to keep git changes to minimum.
+	$(AMFSORT) $@
 	# Add modifiers to AMF files.
 	$(MERGE_APP) -a $@ -s $<
 

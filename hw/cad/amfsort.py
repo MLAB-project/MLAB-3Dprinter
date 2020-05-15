@@ -32,12 +32,12 @@ for group in root.findall(".//coordinates"):
     for x in [ x for x in group ]:
         vertices[-1].append(float(x.text))
 
-# Reading volumes from AMF is not needed. Kept here for testing.
-#volumes = []
-#for group in root.findall(".//triangle"):
-#    volumes.append([])
-#    for x in [ x for x in group ]:
-#        volumes[-1].append(int(x.text))
+# Make list of lists from volumes
+volumes = []
+for group in root.findall(".//triangle"):
+    volumes.append([])
+    for x in [ x for x in group ]:
+        volumes[-1].append(int(x.text))
 
 # Test data:
 #vertices = [[-54.3898, 38.8428, 6.0], [-54.9202, 38.7432, 6.0], [-54.9202, 34.7432, 6.0],
@@ -55,8 +55,8 @@ order = [b[0] for b in sorted(enumerate(vertices), key=lambda i:i[1])]
 # Create sorted list of vertices:
 sorted_vertices = [ vertices[order[i]] for i in range(len(vertices)) ]
 
-# Creation of sorted volumes as list of lists is not needed. Kept here for testing.
-#sorted_volumes = [[ order.index(x) for x in triangle ] for triangle in volumes ]
+# Creation of sorted volumes as list of lists:
+sorted_volumes = sorted([[ order.index(x) for x in triangle ] for triangle in volumes ])
 
 # Change vertices order in AMF file:
 i = 0
@@ -68,9 +68,13 @@ for group in root.findall(".//coordinates"):
     i += 1
 
 # Change volumes order in AMF file:
+i = 0
 for group in root.findall(".//triangle"):
+    j = 0
     for x in [ x for x in group ]:
-        x.text = str(order.index(int(x.text)))
+        x.text = str(sorted_volumes[i][j])
+        j += 1
+    i += 1
 
 # Write back to AMF file
 tree.write(amf, encoding="UTF-8", xml_declaration=True)

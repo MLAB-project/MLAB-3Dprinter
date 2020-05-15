@@ -46,9 +46,9 @@ jobs:
         # See https://github.com/openscad/openscad/issues/1798
         xvfb-run make -C hw/cad
 
-    - name: Publish to git
-      run: |
-        git config --local user.email "work.flow@gmail.com"
-        git config --local user.name "Workflow"
-        git commit -m "Automatic commit from workflow" -a
-        git push
+#    - name: Publish to git
+#      run: |
+#        git config --local user.email "work.flow@gmail.com"
+#        git config --local user.name "Workflow"
+#        git commit -m "Automatic commit from workflow" -a
+#        git push

@@ -44,7 +44,7 @@ jobs:
       run: |
         # Xvfb will make virtual DISPLAY. Otherwise openscad wont render PNG.
         # See https://github.com/openscad/openscad/issues/1798
-        xvfb-run make -C hw/cad
+        xvfb-run make -C hw/cad --always-make
 
     - name: Publish to git
       run: |

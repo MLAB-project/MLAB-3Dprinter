@@ -14,7 +14,7 @@ OPENSCAD_APP := $(shell which openscad || which openscad-nightly)
 MERGE_APP := ./merge_modifiers.sh
 SLICER_APP := slic3r
 SLICER_CFG := config.ini
-wade-gears.gcode : override SLICER_CFG = config_gears.ini
+$(GCODE_DIR)/wade-gears.gcode : override SLICER_CFG = config_gears.ini
 VPATH := $(SRC_DIR):$(DEP_DIR):$(AMF_DIR):$(IMG_DIR)
 
 SOURCES := $(wildcard $(SRC_DIR)/*.scad)

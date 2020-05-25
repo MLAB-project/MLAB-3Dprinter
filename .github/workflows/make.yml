@@ -51,5 +51,6 @@ jobs:
         git config --local user.email "work.flow@gmail.com"
         git config --local user.name "Workflow"
         git status
-#        git commit -m "Automatic commit from workflow" -a
-#        git push
+        git diff
+        git commit -m "Automatic commit from workflow" -a
+        git push

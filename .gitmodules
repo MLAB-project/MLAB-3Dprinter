@@ -1,3 +1,6 @@
 [submodule "hw/cad/src/include/nopscadlib"]
 	path = hw/cad/src/include/nopscadlib
 	url = https://github.com/nophead/NopSCADlib.git
+[submodule "hw/Heatbed_magnetic"]
+	path = hw/Heatbed_magnetic
+	url = git@github.com:mlab-modules/Heatbed_magnetic.git
